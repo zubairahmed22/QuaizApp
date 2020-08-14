@@ -1,0 +1,14 @@
+body{
+    background-color: blueviolet;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.endpage{
+
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}

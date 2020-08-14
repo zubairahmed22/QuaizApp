@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quaiz app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="contant_body">
+<div class="header">
+    <h2 class="welcome">welcome</h2>
+    <span id="second">00:</span>
+    <span id="minutes">00:</span>
+</div>
+<div class="bodytext">
+    <h1 id="what"></h1>
+    <ul class="list">
+        <!-- <li class="items">option1</li>
+        <li class="items">option2</li>
+        <li class="items">option3</li>
+        <li class="items">option4</li> -->
+    </ul>
+<button class="btn" onclick="next()">NextQuestion</button>
+</div>
+<div class="main">
+    <div class="endpage">
+        
+        <h2 class="yourpoint">Your Point 30 </h2>
+        <h3 class="timer1">Time  minutes</h3>
+        <h3 class="timer">Time  minutes <span>seconds</span></h3>
+        
+        
+    </div>
+</div>
+<!-- enter Name page of Quaiz -->
+<div class="main1">
+    <div class="endpage1">
+        
+       <input type=" text" class="enterName" id="name"><br>
+        <button class="startBtn" onclick="startQuaiz()">Start Quaiz </button>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="timer.js"></script>
+</body>
+</html>
